@@ -8,7 +8,6 @@ function App() {
     <>
      {/* Mentor routes */}
       <MentorMain/>
-      <h1>Hello</h1>
     </>
   )
 }
