@@ -1,19 +1,18 @@
-/* Profile.css */
 .profile-card {
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   }
   
   .name-container {
-    background-color: #ff69b4; /* Pink color */
+    background-color: #ff69b4; 
     padding: 20px;
     border-radius: 5px;
-    margin-bottom: 20px; /* Add space between name and details */
+    margin-bottom: 20px; 
   }
   
   .name {
-    margin: 0; /* Remove default margin */
+    margin: 0;
   }
   
   .details {
@@ -22,48 +21,48 @@
   }
   
   .blue-card {
-    background-color: #3498db; /* Blue color */
-    color: #fff; /* White text */
+    background-color: #3498db; 
+    color: #fff; 
     margin-right: 0.5cm;
     line-height: 4; 
   }
   
   .green-card {
-    background-color: #008000; /* Green color */
-    color: #fff; /* White text */
+    background-color: #008000; 
+    color: #fff;
     margin-right: 0.5cm;
     
 
   }
   
   .orange-card {
-    background-color: orange; /* Orange color */
-    color: #fff; /* White text */
+    background-color: orange;
+    color: #fff;
   }
   
   .card {
     padding: 20px;
     border-radius: 5px;
-    margin-bottom: 20px; /* Add space between cards */
-    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; 
   }
   
   .card:hover {
-    transform: translateY(-5px); /* Move the card up slightly on hover */
+    transform: translateY(-5px);
   }
   
   .card h3 {
-    font-size: 18px; /* Increase font size */
-    font-weight: bold; /* Make heading bold */
-    margin-bottom: 10px; /* Add space below heading */
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
   }
   
   .card p {
-    font-size: 16px; /* Increase font size */
-    line-height: 1.5; /* Adjust line height */
+    font-size: 16px;
+    line-height: 1.5; 
   }
   
-  /* Profile.css */
+
 .blue-card .subjects {
-    text-align: right; /* Align text to the right */
+    text-align: right; 
   }
