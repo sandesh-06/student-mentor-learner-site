@@ -1,0 +1,69 @@
+/* Profile.css */
+.profile-card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  }
+  
+  .name-container {
+    background-color: #ff69b4; /* Pink color */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add space between name and details */
+  }
+  
+  .name {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .blue-card {
+    background-color: #3498db; /* Blue color */
+    color: #fff; /* White text */
+    margin-right: 0.5cm;
+    line-height: 4; 
+  }
+  
+  .green-card {
+    background-color: #008000; /* Green color */
+    color: #fff; /* White text */
+    margin-right: 0.5cm;
+    
+
+  }
+  
+  .orange-card {
+    background-color: orange; /* Orange color */
+    color: #fff; /* White text */
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add space between cards */
+    transition: transform 0.3s ease; /* Add transition for smooth hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+  }
+  
+  .card h3 {
+    font-size: 18px; /* Increase font size */
+    font-weight: bold; /* Make heading bold */
+    margin-bottom: 10px; /* Add space below heading */
+  }
+  
+  .card p {
+    font-size: 16px; /* Increase font size */
+    line-height: 1.5; /* Adjust line height */
+  }
+  
+  /* Profile.css */
+.blue-card .subjects {
+    text-align: right; /* Align text to the right */
+  }

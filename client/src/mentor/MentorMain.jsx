@@ -1,6 +1,6 @@
 import { HomeIcon, LayoutDashboardIcon } from "lucide-react";
 import Sidebar from "../reusableComponents/Sidebar";
-import Sample from "./Sample";
+import ProfileFetcher from "./ProfileFetcher";
 
 const MentorMain = () => {
   //1. Sidebar items
@@ -12,7 +12,8 @@ const MentorMain = () => {
   return(
     <>
       <Sidebar sidebarItems={mentorSidebarItems} />
-      <Sample/>
+      {/* <Profile/> */}
+      <ProfileFetcher />
     </>
   )
 };
