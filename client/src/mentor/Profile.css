@@ -1,0 +1,68 @@
+.profile-card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .name-container {
+    background-color: #ff69b4; 
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+  }
+  
+  .name {
+    margin: 0;
+  }
+  
+  .details {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .blue-card {
+    background-color: #3498db; 
+    color: #fff; 
+    margin-right: 0.5cm;
+    line-height: 4; 
+  }
+  
+  .green-card {
+    background-color: #008000; 
+    color: #fff;
+    margin-right: 0.5cm;
+    
+
+  }
+  
+  .orange-card {
+    background-color: orange;
+    color: #fff;
+  }
+  
+  .card {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease; 
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h3 {
+    font-size: 18px; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    line-height: 1.5; 
+  }
+  
+
+.blue-card .subjects {
+    text-align: right; 
+  }
